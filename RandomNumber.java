@@ -38,12 +38,15 @@ public class RandomNumber{
 					System.out.println("Nice");
 					break;
 				}
-				else{
+				else if(i==4){
 					System.out.println("You scored 4 Points");
 					System.out.println("Not Bad");
-
+					break
 				}	
-				break;		
+				else{
+					System.out.println("Your Score is 0");
+					System.out.println("Try Again");
+							
 			}
 			else if(UserNumber>RandomNum)
 			{
@@ -53,10 +56,7 @@ public class RandomNumber{
 			{
 				System.out.println("The guess is low");
 			}
-		}
-		System.out.println("Your Score is 0");
-		System.out.println("Try Again");
-	
+		}	
 		r++;
 	}
 	}
